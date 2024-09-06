@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign up form validation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+          <h2>CREATE ACCOUNT</h2>
+      </div>
+      <form action="save.php" method="post">
+      <form class="form" id="form">
+          <div class="form-control ">
+              <label>Username</label>
+              <input type="text" placeholder="beautyndbeast954" id="username" name="username">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
+          <div class="form-control ">
+              <label>Email</label>
+              <input type="email" placeholder="dead928@gmail.com" id="email" name="email">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
+          <div class="form-control">
+              <label>Password</label>
+              <input type="password" placeholder="paasword" id="password" name="password">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
+          <div class="form-control">
+              <label>Confirm Password</label>
+              <input type="password" placeholder="password " id="confirm" name="confirm">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error Message</small>
+          </div>
+          <button>Submit</button>
+       </form>
+      </form>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
